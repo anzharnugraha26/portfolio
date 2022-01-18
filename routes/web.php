@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::group(
-    ['namespace' => 'AnzharEcommerce\Admin', 'prefix' => 'admin-anzharecommerce'],
+    ['namespace' => 'AnzharEcommerce\Admin', 'prefix' => 'anzharecommerce/admin'],
     function () {
         Route::get('dashboard', 'DashboardController@index');
     }

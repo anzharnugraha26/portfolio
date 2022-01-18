@@ -7,7 +7,8 @@ use App\Http\Controllers\Controller;
 
 class DashboardController extends Controller
 {
-    public function index(){
-        echo "test";
+    public function index()
+    {
+        return view('anzhar-ecommerce.admin.dashboard.index');
     }
 }
