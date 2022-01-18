@@ -61,22 +61,20 @@
             <div class="slider-item ">
                 <div class="overlay"></div>
                 <div class="container">
-                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                    <div class="row d-md-flex no-gutters slider-text align-items-end"
                         data-scrollax-parent="true">
                         <div class="one-forth d-flex  align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
 
-                            <div class="col-md-8">
+                            <div class="col-md-4">
                                 <div class="text">
                                     <span class="subheading">Hello!</span>
                                     <h1 class="mb-4 mt-3">I'm <span>Anzhar Ade Nugraha</span></h1>
                                     <h2 class="mb-4">A Web Developer</h2>
-                                    <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#"
-                                            class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                
+                                <img src="{{asset('image/b1.png')}}" alt="" style="width: 500px;height: 500px;">
                             </div>
                         </div>
                     </div>
@@ -139,10 +137,11 @@
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
                             <p class="mb-4">
-                                <span class="number" data-number="120">0</span>
+                                <span class="number" data-number="4">0</span>
                                 <span>Project complete</span>
                             </p>
-                            <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                            <p><a href="{{ asset('cv.pdf') }}" class="btn btn-primary py-3 px-3" download>Download
+                                    CV</a></p>
                         </div>
                     </div>
                 </div>
@@ -163,25 +162,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">2014-2015</span>
-                        <h2>Master Degree of Design</h2>
-                        <span class="position">Cambridge University</span>
+                        <span class="date">2019-2020</span>
+                        <h2>Programmer </h2>
+                        <span class="position">PT Komitras</span>
                         <p class="mt-4">A small river named Duden flows by their place and supplies it with
                             the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
                             fly into your mouth.</p>
                     </div>
+
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">2014-2015</span>
-                        <h2>Bachelor's Degree of C.A</h2>
-                        <span class="position">Cambridge University</span>
-                        <p class="mt-4">A small river named Duden flows by their place and supplies it with
-                            the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
-                            fly into your mouth.</p>
-                    </div>
-                    <div class="resume-wrap ftco-animate">
-                        <span class="date">2014-2015</span>
-                        <h2>Diploma in Computer</h2>
-                        <span class="position">Cambridge University</span>
+                        <span class="date">2021-now</span>
+                        <h2>Web Developer</h2>
+                        <span class="position">PT Swakarya Insan Manndiri</span>
                         <p class="mt-4">A small river named Duden flows by their place and supplies it with
                             the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
                             fly into your mouth.</p>
@@ -190,34 +182,13 @@
 
                 <div class="col-md-6">
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">2014-2015</span>
-                        <h2>Art &amp; Creative Director</h2>
-                        <span class="position">Cambridge University</span>
+                        <span class="date">2020-2021</span>
+                        <h2>Web Developer</h2>
+                        <span class="position">PT Pesona Mahameru</span>
                         <p class="mt-4">A small river named Duden flows by their place and supplies it with
                             the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
                             fly into your mouth.</p>
                     </div>
-                    <div class="resume-wrap ftco-animate">
-                        <span class="date">2014-2015</span>
-                        <h2>Wordpress Developer</h2>
-                        <span class="position">Cambridge University</span>
-                        <p class="mt-4">A small river named Duden flows by their place and supplies it with
-                            the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
-                            fly into your mouth.</p>
-                    </div>
-                    <div class="resume-wrap ftco-animate">
-                        <span class="date">2017-2018</span>
-                        <h2>UI/UX Designer</h2>
-                        <span class="position">Cambridge University</span>
-                        <p class="mt-4">A small river named Duden flows by their place and supplies it with
-                            the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences
-                            fly into your mouth.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <div class="col-md-6 text-center ftco-animate">
-                    <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
                 </div>
             </div>
         </div>
@@ -249,7 +220,7 @@
                             <i class="flaticon-flasks"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Phtography</h3>
+                            <h3 class="mb-5">FrontEnd Developer</h3>
                         </div>
                     </a>
                 </div>
@@ -259,7 +230,7 @@
                             <i class="flaticon-ideas"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Web Developer</h3>
+                            <h3 class="mb-5">BackEnd Developer</h3>
                         </div>
                     </a>
                 </div>
@@ -290,7 +261,7 @@
                             <i class="flaticon-ideas"></i>
                         </span>
                         <div class="desc">
-                            <h3 class="mb-5">Product Strategy</h3>
+                            <h3 class="mb-5">Fullstack Web Developer</h3>
                         </div>
                     </a>
                 </div>
@@ -308,7 +279,7 @@
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row"> 
                 <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
                         <h3>Photoshop</h3>
@@ -316,61 +287,6 @@
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:90%">
                                 <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                        <h3>jQuery</h3>
-                        <div class="progress">
-                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100" style="width:85%">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                        <h3>HTML5</h3>
-                        <div class="progress">
-                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                aria-valuemax="100" style="width:95%">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                        <h3>CSS3</h3>
-                        <div class="progress">
-                            <div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100" style="width:90%">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                        <h3>WordPress</h3>
-                        <div class="progress">
-                            <div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                aria-valuemax="100" style="width:70%">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                        <h3>SEO</h3>
-                        <div class="progress">
-                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                aria-valuemax="100" style="width:80%">
-                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -392,7 +308,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/project-4.jpg);">
+                        style="background-image: url({{ asset('master/images/project-4.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -402,7 +318,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/project-5.jpg);">
+                        style="background-image: url({{ asset('master/images/project-5.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -413,7 +329,7 @@
 
                 <div class="col-md-8">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/project-1.jpg);">
+                        style="background-image: url({{ asset('master/images/project-1.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -422,7 +338,7 @@
                     </div>
 
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url(images/project-6.jpg);">
+                        style="background-image: url({{ asset('master/images/project-6.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -434,7 +350,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                                style="background-image: url(images/project-2.jpg);">
+                                style="background-image: url({{ asset('master/images/project-2.jpg') }});">
                                 <div class="overlay"></div>
                                 <div class="text text-center p-4">
                                     <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -444,7 +360,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                                style="background-image: url(images/project-3.jpg);">
+                                style="background-image: url({{ asset('master/images/project-3.jpg') }});">
                                 <div class="overlay"></div>
                                 <div class="text text-center p-4">
                                     <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -472,7 +388,7 @@
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
                         <a href="single.html" class="block-20"
-                            style="background-image: url('images/image_1.jpg');">
+                            style="background-image: url('{{ asset('master/images/image_1.jpg') }}');">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -492,7 +408,7 @@
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry justify-content-end">
                         <a href="single.html" class="block-20"
-                            style="background-image: url('images/image_2.jpg');">
+                            style="background-image: url('{{ asset('master/images/image_2.jpg') }}');">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -512,7 +428,7 @@
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry">
                         <a href="single.html" class="block-20"
-                            style="background-image: url('images/image_3.jpg');">
+                            style="background-image: url('{{ asset('master/images/image_3.jpg') }}');">
                         </a>
                         <div class="text mt-3 float-right d-block">
                             <div class="d-flex align-items-center mb-3 meta">
@@ -572,7 +488,8 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+    <section class="ftco-section ftco-hireme img margin-top"
+        style="background-image: url({{ asset('master/images/bg_1.jpg') }})">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7 ftco-animate text-center">
@@ -601,7 +518,7 @@
                             <span class="icon-map-signs"></span>
                         </div>
                         <h3 class="mb-4">Address</h3>
-                        <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                        <p>Jl Candali Raya , Kecamatan Kemang Kabupaten Bogor, Jawa Barat</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -610,7 +527,7 @@
                             <span class="icon-phone2"></span>
                         </div>
                         <h3 class="mb-4">Contact Number</h3>
-                        <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                        <p><a href="tel://1234567920">+ 62 812-9254-9041</a></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -619,7 +536,7 @@
                             <span class="icon-paper-plane"></span>
                         </div>
                         <h3 class="mb-4">Email Address</h3>
-                        <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                        <p><a href="mailto:info@yoursite.com">anzharnugraha50@gmail.com</a></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -634,7 +551,7 @@
             </div>
 
             <div class="row no-gutters block-9">
-                <div class="col-md-6 order-md-last d-flex">
+                <div class="col-md-6 order-md-last d-flex" style="border-radius: 105px">
                     <form action="#" class="bg-light p-4 p-md-5 contact-form">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Your Name">
@@ -656,8 +573,8 @@
 
                 </div>
 
-                <div class="col-md-6 d-flex">
-                    <div class="img" style="background-image: url(images/about.jpg);"></div>
+                <div class="col-md-6 d-flex mt-5">
+                   <img src="{{asset('image/b1.png')}}" alt="" style="width: 500px;height: 500px;">
                 </div>
             </div>
         </div>
@@ -726,9 +643,8 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i
-                            class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib</a>
+                        </script> All rights reserved | <i class="icon-heart color-danger"
+                            aria-hidden="true"></i> by AnzharNugraha
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
