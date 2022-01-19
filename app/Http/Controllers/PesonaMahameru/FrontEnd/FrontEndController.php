@@ -7,5 +7,7 @@ use App\Http\Controllers\Controller;
 
 class FrontEndController extends Controller
 {
-    //
+    function index(){
+       return view('pesona-mahameru.front-end.index');
+    }
 }

@@ -12,3 +12,10 @@ Route::group(
         Route::get('dashboard', 'DashboardController@index');
     }
 );
+
+Route::group(
+    ['namespace' => 'PesonaMahameru\FrontEnd', 'prefix' => 'pesona-mahameru'],
+    function () {
+        Route::get('/', 'FrontEndController@index');
+    }
+);
