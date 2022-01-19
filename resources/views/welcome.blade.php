@@ -311,7 +311,7 @@
                         style="background-image: url({{ asset('master/images/tinggaljualan.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="#">Web Company Profile Tinggal Jualan</a></h3>
+                            <h3><a href="{{url('/tinggal-jualan')}}" target="_blank">Web Company Profile Tinggal Jualan</a></h3>
                             <span>Web Developer</span>
                         </div>
                     </div>
@@ -329,10 +329,10 @@
 
                 <div class="col-md-8">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url({{ asset('master/images/project-1.jpg') }});">
+                        style="background-image: url({{ asset('master/images/youthderma.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+                            <h3><a href="{{url('/youthderma')}}" target="_blank">Web Company Profile Youthderma Aesthetic Clinic</a></h3>
                             <span>Web Design</span>
                         </div>
                     </div>

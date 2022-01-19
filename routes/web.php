@@ -19,8 +19,16 @@ Route::group(
         Route::get('/', 'FrontEndController@index');
     }
 );
+
 Route::group(
     ['namespace' => 'TinggalJualan\FrontEnd', 'prefix' => 'tinggal-jualan'],
+    function () {
+        Route::get('/', 'FrontEndController@index');
+    }
+);
+
+Route::group(
+    ['namespace' => 'Youthderma\FrontEnd', 'prefix' => 'youthderma'],
     function () {
         Route::get('/', 'FrontEndController@index');
     }
