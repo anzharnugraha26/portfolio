@@ -52,12 +52,12 @@
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="marketing@pesonamahameru.com"><img src="{{asset('master/img/core-img/message.png')}}" alt=""> <span>marketing@pesonamahameru.com</span></a>
                         </div>
                         
-                        <div class="col-md-2 top-contact-info d-flex align-items-center classynav" >
+                        {{-- <div class="col-md-2 top-contact-info d-flex align-items-center classynav" >
                             <select class="form-control changeLang" style="margin-left: 10px;background-color: transparent;">
                                 <option value="id" {{ session()->get('locale') == 'id' ? 'selected' : '' }} >INDONESIA</option>
                                 <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>ENGLISH</option>
                             </select>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -210,11 +210,7 @@
 
         <script type="text/javascript">
   
-            var url = "{{ route('changeLang') }}";
-          
-            $(".changeLang").change(function(){
-                window.location.href = url + "?lang="+ $(this).val();
-            });
+            
           
         </script>
     
