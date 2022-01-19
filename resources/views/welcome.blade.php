@@ -308,11 +308,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                        style="background-image: url({{ asset('master/images/project-4.jpg') }});">
+                        style="background-image: url({{ asset('master/images/tinggaljualan.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                            <span>Web Design</span>
+                            <h3><a href="#">Web Company Profile Tinggal Jualan</a></h3>
+                            <span>Web Developer</span>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="{{url('/pesona-mahameru')}}" target="_blank">Web Company Profile PT Pesona Mahameru</a></h3>
-                            <span>Web Devloper</span>
+                            <span>Web Developer</span>
                         </div>
                     </div>
                 </div>
