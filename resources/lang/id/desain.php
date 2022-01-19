@@ -1,0 +1,6 @@
+<?php
+    return[
+        "design" => "Desain adalah suatu hal paling penting bagi para pemilik brand untuk mewakili suatu perusahaan, produk dengan kepribadian dan passion yang dimiliki nya. Yang akan dituangkan dalam sebuah gambar atau tulisan desain untuk logo ataupun produk yang ingin dipasarkan agar menarik para calon konsumen.Salah satu pelayanan kami yaitu menyediakan layanan kebutuhan desain bagi para klien kami yang belum memiliki desain dan kami sudah menyiapkan team kreatif desain yang profesional dan berpengalaman dibidangnya.Team kami memiliki tekad bahwa desain yang dibuat bisa mencerminkan sebuah merek yang berkualitas, karakteristik produk yang hidup dan dapat membuat eyecatching saat berada dalam sebuah toko entah itu toko offline maupun online.",
+        "kemasan" => "Kemasan adalah suatu hal yang wajib ada pada setiap produk! Benar? Kami berupaya memenuhi segala kebutuhan anda dalam packaging atau kemasan agar memudahkan bisnis anda, karena kami sudah mempersiapkan layanan kebutuhan kemasan untuk produk kosmetik yang anda buat. Kami memberikan solusi bagi para pelaku usaha yang ingin terjun dalam dunia industri kosmetik. Jadi kami menyiapkan segala kebutuhan termasuk bahan kemas atau packaging produk kosmetik yang ingin anda buat."
+    ] 
+?>

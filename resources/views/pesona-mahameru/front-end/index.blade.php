@@ -1,7 +1,7 @@
 @extends('pesona-mahameru.layouts.frontend')
 @section('content')
     <!-- ##### Hero Area Start ##### -->
-    {{-- <div class="hero-area">
+    <div class="hero-area">
         <div class="hero-slideshow owl-carousel">
 
             <!-- Single Slide -->
@@ -92,7 +92,7 @@
             </div>
 
         </div>
-    </div> --}}
+    </div>
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Features Area Start ###### -->
@@ -391,7 +391,7 @@
     </section>
    
 
-    {{-- @include('include.form-form') --}}
+    @include('pesona-mahameru.include.form-form')
 
 
 

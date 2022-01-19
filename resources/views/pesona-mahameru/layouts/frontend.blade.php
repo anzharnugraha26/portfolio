@@ -152,7 +152,6 @@
                         <div class="nl-content text-center">
                             <h2>Subscribe to our newsletter</h2>
                             <form action="{{url("/send-subcribe")}}" method="post">
-                                @csrf
                                 <input type="email" name="email" id="nlemail" placeholder="Your e-mail">
                                 <button type="submit">Subscribe</button>
                             </form>
