@@ -61,20 +61,18 @@
             <div class="slider-item ">
                 <div class="overlay"></div>
                 <div class="container">
-                    <div class="row d-md-flex no-gutters slider-text align-items-end"
+                    <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
                         data-scrollax-parent="true">
-                        <div class="one-forth d-flex  align-items-center ftco-animate"
+                        <div class="one-third js-fullheight order-md-last img"
+                            style="background-image:url({{asset('master/images/b1.png')}});">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
-
-                            <div class="col-md-4">
-                                <div class="text">
-                                    <span class="subheading">Hello!</span>
-                                    <h1 class="mb-4 mt-3">I'm <span>Anzhar Ade Nugraha</span></h1>
-                                    <h2 class="mb-4">A Web Developer</h2>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="{{asset('image/b1.png')}}" alt="" style="width: 500px;height: 500px;">
+                            <div class="text">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Anzhar Ade Nugraha</span></h1>
+                                <h2 class="mb-4">A Web Developer</h2>
                             </div>
                         </div>
                     </div>
@@ -86,10 +84,10 @@
                 <div class="container">
                     <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
                         data-scrollax-parent="true">
-                        <div class="one-third js-fullheight order-md-last img"
-                            style="background-image:url(images/bg_2.png);">
+                        {{-- <div class="one-third js-fullheight order-md-last img"
+                            style="background-image:url({{asset('master/images/b1.png')}});">
                             <div class="overlay"></div>
-                        </div>
+                        </div> --}}
                         <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
@@ -109,12 +107,12 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-6 col-lg-5 d-flex">
-                    <div class="img-about img d-flex align-items-stretch">
+                    {{-- <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
                         <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image:url({{ asset('master/images/b1.png') }});">
+                            style="background-image:url({{ asset('image/b1.png') }});">
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
                     <div class="row justify-content-start pb-3">
@@ -279,18 +277,109 @@
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
             </div>
+           
             <div class="row"> 
                 <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
-                        <h3>Photoshop</h3>
+                        <h3>LARAVEL</h3>
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100" style="width:90%">
-                                <span>90%</span>
+                                aria-valuemax="100" style="width:96%">
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>CODEIGNITER</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>PHP</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:98%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>CSS</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>JAVASCRIPT</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:85%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>ANGULAR</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:70%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="row"> 
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>JAVA</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:96%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>KOTLIN</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>FLUTTER</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:98%">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -550,40 +639,14 @@
                 </div>
             </div>
 
-            <div class="row no-gutters block-9">
-                <div class="col-md-6 order-md-last d-flex" style="border-radius: 105px">
-                    <form action="#" class="bg-light p-4 p-md-5 contact-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                        </div>
-                    </form>
-
-                </div>
-
-                <div class="col-md-6 d-flex mt-5">
-                   <img src="{{asset('image/b1.png')}}" alt="" style="width: 500px;height: 500px;">
-                </div>
-            </div>
+          
         </div>
     </section>
 
 
     <footer class="ftco-footer ftco-section">
         <div class="container">
-            <div class="row mb-5">
+            {{-- <div class="row mb-5">
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">About</h2>
@@ -635,7 +698,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="row">
                 <div class="col-md-12 text-center">
 
@@ -644,7 +707,7 @@
                         <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | <i class="icon-heart color-danger"
-                            aria-hidden="true"></i> by AnzharNugraha
+                            aria-hidden="true"></i> by : AnzharNugraha
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
