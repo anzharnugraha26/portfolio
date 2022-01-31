@@ -63,10 +63,7 @@
                 <div class="container">
                     <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
                         data-scrollax-parent="true">
-                        <div class="one-third js-fullheight order-md-last img"
-                            style="background-image:url({{asset('master/images/b1.png')}});">
-                            <div class="overlay"></div>
-                        </div>
+                        
                         <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
@@ -103,16 +100,16 @@
         </div>
     </section>
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-        <div class="container">
+    <section class="ftco-about img ftco-section" id="about-section" style="background: wheat;padding-bottom: 30px">
+        <div class="container" >
             <div class="row d-flex">
                 <div class="col-md-6 col-lg-5 d-flex">
-                    {{-- <div class="img-about img d-flex align-items-stretch">
+                    <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
                         <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image:url({{ asset('image/b1.png') }});">
+                            style="background-image:url({{ asset('master/images/b1.png') }});">
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
                 <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
                     <div class="row justify-content-start pb-3">
