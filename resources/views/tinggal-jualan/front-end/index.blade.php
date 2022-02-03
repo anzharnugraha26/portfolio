@@ -41,7 +41,7 @@
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-5">
 					<div class="about_img">
-						<img class="" src="{{asset('front-master/img/about-us.png')}}" alt="">
+						<img class="" src="{{asset('tinggaljualan-master/front-master/img/about-us.png')}}" alt="">
 					</div>
 				</div>
 
@@ -78,63 +78,63 @@
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/1.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/1.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/2.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/2.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/3.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/3.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/4.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/4.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/5.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/5.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/6.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/6.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/7.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/7.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/8.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/8.png')}}" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="{{asset('front-master/img/brands/9.png')}}" alt="">
+									<img src="{{asset('tinggaljualan-master/front-master/img/brands/9.png')}}" alt="">
 								</div>
 							</div>
 						</div>
