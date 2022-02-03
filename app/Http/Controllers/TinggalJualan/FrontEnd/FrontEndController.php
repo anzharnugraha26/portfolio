@@ -7,7 +7,8 @@ use App\Http\Controllers\Controller;
 
 class FrontEndController extends Controller
 {
-    public function index(){
-        echo "test";
+    public function index()
+    {
+        return view('tinggal-jualan.front-end.index');
     }
 }

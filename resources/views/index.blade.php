@@ -108,7 +108,8 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>26 December
                                             1995</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span></li>
+                                        <span>www.example.com</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 812 9254
                                             9041</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bogor ,
@@ -120,9 +121,11 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
                                     {{-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> --}}
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>anzharnugraha50@gmail.com</span></li>
+                                        <span>anzharnugraha50@gmail.com</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span></li>
+                                        <span>Available</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -285,26 +288,31 @@
                 </div>
 
                 <div class="row">
-                    
+
                     <div class="col-lg-6">
                         <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
                             <h4>PHP DEVELOPER (Freelance) </h4>
                             <h5>2021 - Present</h5>
-                            <p><em>SWAKARYA INSAN MANDIRI, Jl Kebagusan raya no 18, RT 01/RW 07 Pasar Minggu Kota Administrasi Jakarta Selatan </em></p>
+                            <p><em>SWAKARYA INSAN MANDIRI, Jl Kebagusan raya no 18, RT 01/RW 07 Pasar Minggu Kota
+                                    Administrasi Jakarta Selatan </em></p>
                             <ul>
-                                <li>System maintenance on the website <a href="https://gawe.id/">https://gawe.id/</a></li>
+                                <li>System maintenance on the website <a href="https://gawe.id/">https://gawe.id/</a>
+                                </li>
                                 <li>Added features</li>
                             </ul>
                         </div>
                         <div class="resume-item">
                             <h4>Web Developer</h4>
                             <h5>March 2021 - November 2021</h5>
-                            <p><em>PT Pesona Mahameru, Plaza Amsterdam Blok B Sentul City No. 56, Kec. Babakan Madang, Bogor, Jawa Barat</em></p>
+                            <p><em>PT Pesona Mahameru, Plaza Amsterdam Blok B Sentul City No. 56, Kec. Babakan Madang,
+                                    Bogor, Jawa Barat</em></p>
                             <ul>
-                                <li>System maintenance on the website <a href="https://pesonamahameru.com/">https://pesonamahameru.com/</a></li>
+                                <li>System maintenance on the website <a
+                                        href="https://pesonamahameru.com/">https://pesonamahameru.com/</a></li>
                                 <li>Website creation and maintenance for clients</li>
-                                <li>System maintenance on the website <a href="https://tinggaljualan.com/">https://tinggaljualan.com/</a></li>
+                                <li>System maintenance on the website <a
+                                        href="https://tinggaljualan.com/">https://tinggaljualan.com/</a></li>
                             </ul>
                         </div>
                         <div class="resume-item">
@@ -314,7 +322,7 @@
                             <ul>
                                 <li>Web and Android based application development</li>
                                 <li>Client application test bugs</li>
-                               
+
                             </ul>
                         </div>
                     </div>
@@ -352,13 +360,30 @@
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="{{asset('front-master/assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('portfolio/1.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web Company Profile Tinggal Jualan</h4>
+                                <a href="{{ url('tinggal-jualan') }}" title="Portfolio Details" target="_blank">
+                                    <h4>Web Company Profile Tinggal Jualan</h4>
+                                </a>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="{{asset('front-master/assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                    {{-- <a href="{{asset('front-master/assets/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
+                                    <a href="{{ url('tinggal-jualan') }}" title="Portfolio Details"
+                                        target="_blank"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('portfolio/2.jpg') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web Company Profile Pesona Mahameru</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
                                     <a href="portfolio-details.html" class="portfolio-details-lightbox"
                                         data-glightbox="type: external" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
@@ -368,29 +393,13 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="{{asset('front-master/assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('portfolio/3.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
+                                <h4>Web Company Profile Youthderma</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" class="portfolio-details-lightbox"
-                                        data-glightbox="type: external" title="Portfolio Details"><i
-                                            class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('front-master/assets/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                    {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
                                     <a href="portfolio-details.html" class="portfolio-details-lightbox"
                                         data-glightbox="type: external" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
