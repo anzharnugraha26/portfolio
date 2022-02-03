@@ -15,6 +15,11 @@ class CreateTinggaljualanCategoriesTable extends Migration
     {
         Schema::create('tinggaljualan_categories', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->text('title');
+            $table->string('image');
+            $table->text('description');
+            $table->string('icon_detail');
             $table->timestamps();
         });
     }
