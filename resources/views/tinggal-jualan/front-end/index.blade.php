@@ -24,7 +24,7 @@
 						</div>
 						<div class="col-lg-5">
 							<div class="home_right_img" >
-								<img class="" src="{{asset('front-master/img/banner/7.png')}}" alt="" style="margin-bottom: 5px;margin-top: -85px"  >
+								<img class="" src="{{asset('tinggaljualan-master/front-master/img/banner/7.png')}}" alt="" style="margin-bottom: 5px;margin-top: -85px;width: 500px;height: 500px"  >
 							</div>
 						</div>
 					</div>
@@ -235,9 +235,9 @@
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/1.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/1.jpg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -252,9 +252,9 @@
 					<div class="col-lg-4 col-md-6 all popular">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/2.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/2.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/2.jpg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/2.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -269,9 +269,9 @@
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/3.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/3.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/3.jpg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/3.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -286,9 +286,9 @@
 					<div class="col-lg-4 col-md-6 all popular">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/4.jpeg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/4.jpeg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/4.jpeg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/4.jpeg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -303,9 +303,9 @@
 					<div class="col-lg-4 col-md-6 all following">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/5.jpeg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/5.jpeg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/5.jpeg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/5.jpeg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -320,9 +320,9 @@
 					<div class="col-lg-4 col-md-6 all upcoming">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/6.jpeg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/6.jpeg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/6.jpeg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/6.jpeg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -337,9 +337,9 @@
 					<div class="col-lg-4 col-md-6 all upcoming following">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/7.jpeg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/7.jpeg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/7.jpeg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/7.jpeg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -354,9 +354,9 @@
 					<div class="col-lg-4 col-md-6 all following">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/8.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/8.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/8.jpg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/8.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -371,9 +371,9 @@
 					<div class="col-lg-4 col-md-6 all upcoming">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{asset('/img/portfolio/9.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{asset('tinggaljualan-master/img/portfolio/9.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{asset('/img/portfolio/9.jpg')}}" class="img-gal">
+								<a href="{{asset('tinggaljualan-master/img/portfolio/9.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>

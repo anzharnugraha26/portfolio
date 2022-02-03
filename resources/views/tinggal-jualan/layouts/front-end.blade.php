@@ -61,9 +61,9 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item {{ '/' == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url("/")}}">Home</a></li>
+							<li class="nav-item {{ 'tinggal-jualan' == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url("/tinggal-jualan")}}">Home</a></li>
 							{{-- <li class="nav-item {{ 'about' == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url('/about')}}" data-turbolinks="true">About</a></li> --}}
-							<li class="nav-item {{ 'services' == request()->path()? 'active' : ''}} {{ 'service-detail' == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url('/services')}}" data-turbolinks="true">Services</a></li>
+							<li class="nav-item {{ 'tinggal-jualan/services' == request()->path()? 'active' : ''}} {{ 'service-detail' == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url('tinggal-jualan/services')}}" data-turbolinks="true">Services</a></li>
 							<li class="nav-item {{ 'portfolio'  == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url("/portfolio")}}">Portfolio</a></li>
 							<li class="nav-item {{ 'blog'  == request()->path()? 'active' : ''}}
 								 {{ 'detail-blog'  == request()->path()? 'active' : ''}}"><a class="nav-link" href="{{url("/blog")}}">Blog</a></li>

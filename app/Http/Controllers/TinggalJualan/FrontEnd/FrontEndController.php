@@ -11,4 +11,12 @@ class FrontEndController extends Controller
     {
         return view('tinggal-jualan.front-end.index');
     }
+
+    public function service()
+    {
+        return view(
+            'tinggal-jualan.front-end.service'
+            // , compact('categories')
+        );
+    }
 }
