@@ -28,6 +28,39 @@ const jokes = [{
     {
         jk: "Hantu apa yang bisa dilihat setiap hari pak?  Burung hantu",
     },
+    {
+        jk: "Pocong apa yang paling jadi favorit ibu-ibu? Pocongan harga pak, sudah pasti itu!",
+    },
+    {
+        jk: "Apa persamaan cokelat dan kuburan pak? Sama-sama band terkenal, lah!",
+    },
+    {
+        jk: "Hewan apa yang hobi telat ke sekolah? Kaki seribu. Soalnya kelamaan pakai sepatunya",
+    },
+    {
+        jk: "Hewan apa yang cuma terdiri dari dua huruf? U dan G (udang)",
+    },
+    {
+        jk: "Kota apa yang banyak bapak-bapaknya? Purwodaddy",
+    },
+    {
+        jk: "Gendang apa yang nggak bisa dipukul? Gendang telinga pak",
+    },
+    {
+        jk: "Warna apa yang paling nggak peduli? Biru don't care",
+    },
+    {
+        jk: "Kenapa kita harus berdoa sebelum minum air? Karena di dalam air ada 3 jin. 2 hidroJin dan 1 oksiJin.",
+    },
+    {
+        jk: "Apa bedanya kamu sama kuburan? Kalau kuburan nyeremin. Kalau kamu ngeselin.",
+    },
+    {
+        jk: "Apa yang kalau dipotong malah semakin tinggi?  Celana",
+    },
+    {
+        jk: "Kalau ditutup kelihatan, tapi kalau dibuka malah nggak ada. Apa hayo? Pintu rel kereta api",
+    },
 ];
 
 let currentQuiz = 0
