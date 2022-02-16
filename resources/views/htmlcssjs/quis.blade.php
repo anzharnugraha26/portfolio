@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{asset('htmlcssjs/quis/style.css')}}" />
     <title>Quiz App</title>
   </head>
   <body>
@@ -34,6 +34,6 @@
       </div>
       <button id="submit">Submit</button>
     </div>
-    <script src="script.js"></script>
+    <script src="{{asset('htmlcssjs/quis/script.js')}}"></script>
   </body>
 </html>
