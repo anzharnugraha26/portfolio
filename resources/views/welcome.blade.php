@@ -63,7 +63,7 @@
                 <div class="container">
                     <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
                         data-scrollax-parent="true">
-                        
+
                         <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
@@ -101,7 +101,7 @@
     </section>
 
     <section class="ftco-about img ftco-section" id="about-section" style="background: wheat;padding-bottom: 30px">
-        <div class="container" >
+        <div class="container">
             <div class="row d-flex">
                 <div class="col-md-6 col-lg-5 d-flex">
                     <div class="img-about img d-flex align-items-stretch">
@@ -274,8 +274,8 @@
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
             </div>
-           
-            <div class="row"> 
+
+            <div class="row">
                 <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
                         <h3>LARAVEL</h3>
@@ -292,7 +292,7 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:80%">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -303,7 +303,7 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:98%">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:90%">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:85%">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -336,14 +336,14 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:70%">
-                               
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-          
-            <div class="row"> 
+
+            <div class="row">
                 <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
                         <h3>JAVA</h3>
@@ -360,7 +360,7 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:80%">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -371,12 +371,12 @@
                         <div class="progress">
                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100" style="width:98%">
-                               
+
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -397,7 +397,8 @@
                         style="background-image: url({{ asset('master/images/tinggaljualan.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="{{url('/tinggal-jualan')}}" target="_blank">Web Company Profile Tinggal Jualan</a></h3>
+                            <h3><a href="{{ url('/tinggal-jualan') }}" target="_blank">Web Company Profile Tinggal
+                                    Jualan</a></h3>
                             <span>Web Developer</span>
                         </div>
                     </div>
@@ -407,7 +408,8 @@
                         style="background-image: url({{ asset('master/images/pesona.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="{{url('/pesona-mahameru')}}" target="_blank">Web Company Profile PT Pesona Mahameru</a></h3>
+                            <h3><a href="{{ url('/pesona-mahameru') }}" target="_blank">Web Company Profile PT Pesona
+                                    Mahameru</a></h3>
                             <span>Web Developer</span>
                         </div>
                     </div>
@@ -418,7 +420,8 @@
                         style="background-image: url({{ asset('master/images/youthderma.jpg') }});">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
-                            <h3><a href="{{url('/youthderma')}}" target="_blank">Web Company Profile Youthderma Aesthetic Clinic</a></h3>
+                            <h3><a href="{{ url('/youthderma') }}" target="_blank">Web Company Profile Youthderma
+                                    Aesthetic Clinic</a></h3>
                             <span>Web Design</span>
                         </div>
                     </div>
@@ -636,7 +639,7 @@
                 </div>
             </div>
 
-          
+
         </div>
     </section>
 
