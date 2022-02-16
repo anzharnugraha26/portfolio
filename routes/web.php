@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('quis' , 'HtmlCssJs\HomeController@quis');
+
 Route::group(
     ['namespace' => 'AnzharEcommerce\Admin', 'prefix' => 'anzharecommerce/admin'],
     function () {
