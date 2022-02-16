@@ -408,6 +408,52 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('portfolio/4.jpg') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Quiz App By Html Css Javascript</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
+                                    <a href="{{ url('quis') }}"  title="Portfolio Details" target="_blank"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('portfolio/4.jpg') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Quiz App By Html Css Javascript</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
+                                    <a href="{{ url('quis') }}"  title="Portfolio Details" target="_blank"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('portfolio/4.jpg') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Quiz App By Html Css Javascript</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
+                                    <a href="{{ url('quis') }}"  title="Portfolio Details" target="_blank"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
