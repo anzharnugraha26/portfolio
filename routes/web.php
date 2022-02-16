@@ -7,6 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('quiz' , 'HtmlCssJs\HomeController@quis');
+Route::get('jokes-bapack-bapack' , 'HtmlCssJs\HomeController@jokes');
 
 Route::group(
     ['namespace' => 'AnzharEcommerce\Admin', 'prefix' => 'anzharecommerce/admin'],

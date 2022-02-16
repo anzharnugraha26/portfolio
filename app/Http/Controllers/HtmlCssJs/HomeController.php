@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return view('htmlcssjs.quis');
     }
+
+    public function jokes()
+    {
+        return view('htmlcssjs.jokes');
+    }
 }
