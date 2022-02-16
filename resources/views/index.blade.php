@@ -432,7 +432,7 @@
                                 <div class="portfolio-links">
                                     {{-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> --}}
-                                    <a href="{{ url('quis') }}"  title="Portfolio Details" target="_blank"><i
+                                    <a href="{{ url('quiz') }}"  title="Portfolio Details" target="_blank"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
