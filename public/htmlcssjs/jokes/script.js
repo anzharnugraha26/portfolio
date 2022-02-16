@@ -13,6 +13,21 @@ const jokes = [{
     {
         jk: "Hewan apa yang ternyata bersaudara? Katak beradik",
     },
+    {
+        jk: "Siapa pemain bola yang beratnya 3 kg, pak?  Bambang tabung gas",
+    },
+    {
+        jk: "Hewan apa yang kalau diinjek nggak marah? Kera mik ",
+    },
+    {
+        jk: "Kesenian apa yang selalu dilakukan oleh nasabah bank, hayo? Tari tunai",
+    },
+    {
+        jk: "Pak, tahu nggak kenapa kucing nggak di penjara pas jadi maling? Soalnya kucing ga wrong.",
+    },
+    {
+        jk: "Hantu apa yang bisa dilihat setiap hari pak?  Burung hantu",
+    },
 ];
 
 let currentQuiz = 0
